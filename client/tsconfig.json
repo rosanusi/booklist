@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
+    "module": "system",
+    "rootDir": "src",
+    "outDir": "out",
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false
+    "esModuleInterop": true
+  }
+}

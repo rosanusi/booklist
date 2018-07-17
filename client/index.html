@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>React Hello World</title>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+    <script>
+        SystemJS.config({
+            map: {
+                "react":"/node_modules/react/umd/react.development.js",
+                "react-dom":"/node_modules/react-dom/umd/react-dom.development.js"
+            },
+        });
+    </script>
+    <script>SystemJS.import('./out/index.js').then(e=>e.main());</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
